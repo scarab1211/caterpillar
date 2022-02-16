@@ -1,0 +1,16 @@
+
+  
+name: Password
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  secrets-in-github-actions:
+    runs-on: windows-latest
+    
+    steps:
+      - name: pass
+        env: 
+          PASSWORD: ${{ secrets.PASSWORD }}
