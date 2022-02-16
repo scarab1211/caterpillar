@@ -10,6 +10,7 @@ if (name == "citrus") {
 	element.innerHTML = "Youtube link here";
 } else if (name == "mail"){
 	alert("Good try");
+	//the fuk?
 } else if (name == "theory"){
 	alert("Hint actiated");
 	document.getElementById("hint").style.display = "inline";
