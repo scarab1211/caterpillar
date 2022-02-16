@@ -14,3 +14,4 @@ jobs:
       - name: pass
         env: 
           PASSWORD: ${{ secrets.PASSWORD }}
+        run: echo "test"
