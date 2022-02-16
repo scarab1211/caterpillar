@@ -8,9 +8,11 @@ var name = window.prompt("Enter the password: ");
 if (name == "citrus") {
 	alert("Correct!");
 	element.innerHTML = "Youtube link here";
+} else if (name == "mail"){
+	alert("Good try");
 } else if (name == "theme"){
 	alert("Hint actiated");
-	document.getElementById("hint").style.display = "block";
+	document.getElementById("hint").style.display = "inline";
 } else {
 	alert("Incorrect");
 	element.innerHTML = "Incorrect";
