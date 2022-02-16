@@ -9,11 +9,12 @@ if (name == "citrus") {
 	alert("Correct!");
 	element.innerHTML = "Youtube link here";
 } else if (name == "mail"){
-	alert("Good try");
-	//the fuk?
+	alert("Incorrect");
+	element.innerHTML = "Nice try";
 } else if (name == "theory"){
-	alert("Hint actiated");
+	alert("Incorrect");
 	document.getElementById("hint").style.display = "inline";
+	element.innerHTML = "Incorrect";
 } else {
 	alert("Incorrect");
 	element.innerHTML = "Incorrect";
