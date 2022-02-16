@@ -1,1 +1,13 @@
 
+header {
+    
+    width: 830px;
+    height:80px;
+    padding: 8px 0px 0px;
+    margin:20px auto;
+    float:left;
+    text-align: left;
+    justify-content:left;
+    position:fixed;
+    transform-style: preserve-3d;
+}
